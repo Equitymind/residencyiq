@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-cormorant', weight: ['500', '600', '700'] });
 
 export const metadata: Metadata = {
-  title: 'ResidencyIQ | Residency Intelligence Platform',
-  description: 'Premium residency intelligence for organizing domicile evidence, monitoring behavioral continuity, and sharing advisor-ready residency profiles.',
+  title: 'ResidencyIQ | Residency Tracking for Multi-State Living',
+  description: 'Track residency, organize domicile evidence, and monitor behavioral continuity when living, working, or traveling across multiple states.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

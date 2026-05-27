@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const page = getMigrationPage(slug);
   if (!page) return {};
   return {
-    title: `${page.title} | ResidencyIQ`,
+    title: `Moving from ${page.from} to ${page.to} While Maintaining Ties | ResidencyIQ`,
     description: page.description,
     alternates: { canonical: `/${page.slug}` },
   };
@@ -35,7 +35,7 @@ export default async function MigrationPage({ params }: PageProps) {
     <Header />
     <main>
       <section className="border-b border-gold/10">
-        <PageContainer className="py-14 sm:py-18 lg:py-20">
+        <PageContainer className="py-14 sm:py-16 lg:py-20">
           <p className="eyebrow">Residency Migration Intelligence</p>
           <h1 className="mt-7 max-w-4xl font-serif text-5xl font-semibold leading-tight text-ivory sm:text-6xl">{page.title}</h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-graphite">{page.description}</p>

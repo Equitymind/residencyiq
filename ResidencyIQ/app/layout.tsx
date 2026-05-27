@@ -8,7 +8,6 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-cor
 export const metadata: Metadata = {
   title: 'ResidencyIQ | Residency Intelligence Platform',
   description: 'Premium residency intelligence for organizing domicile evidence, monitoring behavioral continuity, and sharing advisor-ready residency profiles.',
-  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

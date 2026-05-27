@@ -1,0 +1,9 @@
+{
+  "name": "residencyiq-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ResidencyIQ run dev",
+    "build": "npm --prefix ResidencyIQ run build",
+    "start": "npm --prefix ResidencyIQ run start"
+  }
+}
